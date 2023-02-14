@@ -2,6 +2,8 @@
   --bg: #121212;
   --black: #121212;
   --feat: #FF3E00;
+  --overlay: rgba(0,0,0,0.55);
+  --subtle: rgba(255,255,255,0.20);
 }
 *, *::before, *::after {
   box-sizing: border-box;
