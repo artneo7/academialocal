@@ -2,9 +2,9 @@
   import imgMusculacao from '$lib/assets/musculacao.jpg'
   import iconMuscle from '$lib/assets/icon-muscle.png';
 
-  export let title;
-  export let content;
-  export let btn;
+  export let title = "Você está pronto para o desafio?";
+  export let content = "A Academia Local está pronta para te ajudar a chegar mais longe e alcançar sua melhor performance.";
+  export let btn = "Saiba mais";
   export let href;
   
   export let img;
@@ -18,7 +18,10 @@
   <div class="intro__wrapper wrap">
     <h1>{@html title} <img src="{icon}" alt=""></h1>
     <p>{content}</p>
+
+    {#if btn && href}
     <a class="btn" href="{href}">{btn}</a>
+    {/if}
   </div>
 </section>
 
