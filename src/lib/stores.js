@@ -10,5 +10,20 @@ export const modalidades = writable([
     name: 'Crossfit',
     slug: 'crossfit',
     img: '/crossfit.jpg'
+  },
+  {
+    name: 'Alongamento',
+    slug: 'alongamento',
+    img: '/alongamento.jpg'
+  },
+  {
+    name: 'Exercícios em grupo',
+    slug: 'exercicios',
+    img: '/exercicios.jpg'
+  },
+  {
+    name: 'Natação',
+    slug: 'natacao',
+    img: '/natacao.jpg'
   }
 ]);
