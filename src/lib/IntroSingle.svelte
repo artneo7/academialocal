@@ -19,7 +19,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    max-height: 360px;
     align-items: center;
   }
   .intro__img {
