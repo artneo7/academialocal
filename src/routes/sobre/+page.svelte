@@ -38,4 +38,10 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
+
+  @media(max-width: 800px) {
+    .faq__wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>

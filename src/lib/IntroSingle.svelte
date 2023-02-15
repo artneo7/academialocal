@@ -42,4 +42,19 @@
     font-size: calc(18 / 16 * 1rem);
     margin-top: 8px;
   }
+
+  @media(max-width: 800px) {
+    .intro__wrapper {
+      grid-template-columns: 1fr;
+    }
+    .intro__img {
+      grid-row: 1;
+      margin-left: -20px;
+    }
+    img {
+      height: 240px;
+      width: 100%;
+      object-position: center;
+    }
+  }
 </style>
