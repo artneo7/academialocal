@@ -1,7 +1,13 @@
 <script>
 	import Intro from "$lib/Intro.svelte";
 	import Info from "$lib/Info.svelte";
+	import Seo from "$lib/Seo.svelte";
 </script>
+
+<Seo
+  name="Sobre"
+  description="A Academia Local fica pertinho de você com várias modalidades para escolher!"
+/>
 
 <Intro
   title="Conheça a academia que mais cresce na cidade!"

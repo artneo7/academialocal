@@ -1,6 +1,9 @@
 <script>
 	import Intro from '$lib/Intro.svelte';
+	import SeoHome from '$lib/SeoHome.svelte';
 </script>
+
+<SeoHome/>
 
 <Intro
   title="Você está pronto<br> para o desafio?"

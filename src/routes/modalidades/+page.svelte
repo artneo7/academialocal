@@ -2,7 +2,13 @@
   import Intro from '$lib/Intro.svelte';
 	import Card from '$lib/Card.svelte';
   import { modalidades } from '$lib/stores';
+	import Seo from '$lib/Seo.svelte';
 </script>
+
+<Seo
+  name="Modalidades"
+  description="A Academia Local tem várias modalidades para que você tenha a melhor experiência possível!"
+/>
 
 <Intro
   title="Temos a modalidade certa para você"
