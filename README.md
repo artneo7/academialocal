@@ -1,38 +1,77 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# Como eu recomendo criar sites em 2023: SvelteKit 1.0 – Projeto completo na prática
+Já ouviu falar do SvelteKit? Vou mostrar como criar um site do zero utilizando o SvelteKit 1.0 hospedado na Vercel.
 
-## Creating a project
+## Links importantes  
+Demonstração:  
+https://academialocal.vercel.app/  
 
-If you're seeing this, you've probably already done this step. Congrats!
+Protótipo do Figma:  
+https://blog.artneo.com.br/academialocal  
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+SvelteKit:  
+https://kit.svelte.dev  
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Hospedagem Vercel:  
+https://vercel.com  
 
-## Developing
+Visual Studio Code:  
+https://code.visualstudio.com  
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Josh Comeau's CSS reset:  
+https://www.joshwcomeau.com/css/custom-css-reset/  
 
-```bash
-npm run dev
+Instalar fontes localmente:  
+https://fontsource.org/  
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+GitHub:  
+https://github.com/  
 
-## Building
+Assets:  
+https://github.com/artneo7/academialocal-assets  
 
-To create a production version of your app:
+Emoji como imagem:  
+https://emoji.aranja.com/  
 
-```bash
-npm run build
-```
+Estrutura API WhatsApp:  
+https://api.whatsapp.com/send?phone=  
 
-You can preview the production build with `npm run preview`.
+AutoAnimate:  
+https://auto-animate.formkit.com/  
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+SvelteKit Docs:  
+https://kit.svelte.dev/docs/introduction  
+
+PageSpeed Insights:  
+https://developers.google.com/speed/pagespeed/insights/  
+
+JSON-LD:  
+https://jsonld.com/web-page/  
+
+Open Graph meta tags:  
+https://www.opengraph.xyz/  
+
+GitHub projeto final:  
+https://github.com/artneo7/academialocal
+
+## Recursos utilizados no projeto 
+Foto de Victor Freitas na Unsplash:  
+https://unsplash.com/pt-br/fotografias/hOuJYX2K5DA
+
+Foto de Meghan Holmes na Unsplash:  
+https://unsplash.com/pt-br/fotografias/buWcS7G1_28
+
+Foto de Gabin Vallet na Unsplash:  
+https://unsplash.com/pt-br/fotografias/J154nEkpzlQ
+
+Foto de Brian Matangelo na Unsplash:  
+https://unsplash.com/pt-br/fotografias/-BUPaAMSOdE
+
+Foto de Geert Pieters na Unsplash:  
+https://unsplash.com/pt-br/fotografias/NbpUM86Jo8Y
+
+Logo do plugin Logo Creator no Figma:  
+https://www.figma.com/community/plugin/768094929040207895/Logo-Creator
+
+Emoji em PNG:  
+https://emoji.aranja.com/
