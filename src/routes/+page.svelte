@@ -3,7 +3,9 @@
 	import SeoHome from '$lib/SeoHome.svelte';
 </script>
 
-<SeoHome/>
+<SeoHome
+  description="A academia mais perto de você com o maior número de modalidades!"
+/>
 
 <Intro
   title="Você está pronto<br> para o desafio?"
