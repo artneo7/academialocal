@@ -4,31 +4,31 @@ export const modalidades = writable([
   {
     name: 'Musculação',
     slug: 'musculacao',
-    img: '/musculacao.jpg',
+    img: '/musculacao.avif',
     content: 'Treinos de musculação individual ou em grupo.'
   },
   {
     name: 'Crossfit',
     slug: 'crossfit',
-    img: '/crossfit.jpg',
+    img: '/crossfit.avif',
     content: 'Treinos de crossfit individual ou em grupo.'
   },
   {
     name: 'Alongamento',
     slug: 'alongamento',
-    img: '/alongamento.jpg',
+    img: '/alongamento.avif',
     content: 'Treinos de alongamento individual ou em grupo.'
   },
   {
     name: 'Exercícios em grupo',
     slug: 'exercicios',
-    img: '/exercicios.jpg',
+    img: '/exercicios.avif',
     content: 'Exercícios individual ou em grupo.'
   },
   {
     name: 'Natação',
     slug: 'natacao',
-    img: '/natacao.jpg',
+    img: '/natacao.avif',
     content: 'Natação individual ou em grupo.'
   }
 ]);

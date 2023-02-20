@@ -7,7 +7,7 @@
 
 <header class="header">
   <div class="header__wrapper wrap">
-    <a href="/" class="logo"><img src="{logo}" alt="Logo da Academia Local"></a>
+    <a href="/" class="logo"><img src="{logo}" alt="Logo da Academia Local" width="277" height="50"></a>
     <nav>
       <ul>
         <li><a href="/" class:active={current === '/'}>Home</a></li>

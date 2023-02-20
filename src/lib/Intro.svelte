@@ -1,7 +1,7 @@
 <script>
-  import imgMusculacao from '$lib/assets/musculacao.jpg'
-  import imgExercicios from '$lib/assets/exercicios.jpg';
-  import imgAlongamento from '$lib/assets/alongamento.jpg';
+  import imgMusculacao from '$lib/assets/musculacao.avif'
+  import imgExercicios from '$lib/assets/exercicios.avif';
+  import imgAlongamento from '$lib/assets/alongamento.avif';
   import iconMuscle from '$lib/assets/icon-muscle.png';
   import iconWeight from '$lib/assets/icon-weight.png';
 	import { fly } from 'svelte/transition';
@@ -23,7 +23,7 @@
 
 <section class="intro" style="background-image: url({img})">
   <div class="intro__wrapper wrap">
-    <h1 in:fly={{y: -12, duration: 125, delay: 125}}>{@html title} <img src="{icon}" alt=""></h1>
+    <h1 in:fly={{y: -12, duration: 125, delay: 125}}>{@html title} <img src="{icon}" alt="" width="36" height="36"></h1>
     <p in:fly={{y: -12, duration: 125, delay: 250}}>{content}</p>
 
     {#if btn && href}
