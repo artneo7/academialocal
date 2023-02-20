@@ -4,6 +4,7 @@
   import imgAlongamento from '$lib/assets/alongamento.jpg';
   import iconMuscle from '$lib/assets/icon-muscle.png';
   import iconWeight from '$lib/assets/icon-weight.png';
+	import { fly } from 'svelte/transition';
 
   export let title = "Você está pronto para o desafio?";
   export let content = "A Academia Local está pronta para te ajudar a chegar mais longe e alcançar sua melhor performance.";
@@ -22,11 +23,11 @@
 
 <section class="intro" style="background-image: url({img})">
   <div class="intro__wrapper wrap">
-    <h1>{@html title} <img src="{icon}" alt=""></h1>
-    <p>{content}</p>
+    <h1 in:fly={{y: -12, duration: 125, delay: 125}}>{@html title} <img src="{icon}" alt=""></h1>
+    <p in:fly={{y: -12, duration: 125, delay: 250}}>{content}</p>
 
     {#if btn && href}
-    <a class="btn" href="{href}">{btn}</a>
+    <a class="btn" href="{href}" in:fly={{y: -12, duration: 125, delay: 375}}>{btn}</a>
     {/if}
   </div>
 </section>

@@ -8,7 +8,9 @@
   export let data;
 </script>
 
+{#key data}
 <IntroSingle data={data} />
+{/key}
 
 <section class="related">
   <div class="related__wrapper wrap">
