@@ -39,6 +39,7 @@
     border-radius: 0 0 0 8px;
     height: 360px;
     object-fit: cover;
+    width: 100%;
   }
   p {
     font-size: calc(18 / 16 * 1rem);
