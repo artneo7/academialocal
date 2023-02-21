@@ -75,3 +75,6 @@ https://www.figma.com/community/plugin/768094929040207895/Logo-Creator
 
 Emoji em PNG:  
 https://emoji.aranja.com/
+
+Ícone "x":  
+https://feathericons.com/
